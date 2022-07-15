@@ -1,0 +1,18 @@
+spring:
+  profiles:
+    active: dev
+  rabbitmq:
+    host: master
+
+#mybatis:
+#  configuration:
+#    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+#  #  configLocation: classpath:mybatis/mybatis-config.xml
+#  mapperLocations:
+#    - classpath:mappers/TransactionFirstMapper.xml
+#    - classpath:mappers/TransactionSecondMapper.xml
+#    - classpath:mappers/UserMapper.xml
+debug:
+  true
+logging:
+  config: classpath:logs/log4j2-dev.xml

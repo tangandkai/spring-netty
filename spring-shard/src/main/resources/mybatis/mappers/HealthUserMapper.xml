@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.tang.shard.mapper.HealthUserMapper">
+    <resultMap id="userMap" type="com.tang.shard.mapper.entity.HealthUser">
+        <result column="user_id" property="userId" jdbcType="INTEGER"/>
+        <result column="user_name" property="userName" jdbcType="VARCHAR"/>
+    </resultMap>
+
+    <insert id="addEntity">
+        INSERT INTO health_user (user_id, user_name) VALUES (#{userId,jdbcType=INTEGER}, #{userName,jdbcType=VARCHAR})
+    </insert>
+
+    <delete id="deleteEntity">
+        DELETE FROM health_user WHERE user_id = #{userId,jdbcType=INTEGER};
+    </delete>
+
+    <select id="findEntities" resultMap="userMap">
+        SELECT * FROM health_user;
+    </select>
+
+    <delete id="deleteAll">
+        truncate table health_user;
+    </delete>
+</mapper>

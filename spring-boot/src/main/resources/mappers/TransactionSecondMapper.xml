@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.tang.boot.mapper.TransactionSecondMapper">
+
+    <update id="update" parameterType="com.tang.boot.mapper.entity.Transaction">
+        update transaction_2 set num = #{num,jdbcType=INTEGER} where id = #{id,jdbcType=INTEGER}
+    </update>
+
+    <insert id="addEntity">
+        INSERT INTO transaction_2 (id, num)
+        VALUES (#{id,jdbcType=INTEGER}, #{num,jdbcType=INTEGER})
+    </insert>
+</mapper>

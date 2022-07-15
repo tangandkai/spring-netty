@@ -1,0 +1,19 @@
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.tang.netty.mapper.UserMapper">
+
+    <!--插入标签-->
+    <insert id="addUser" parameterType="com.tang.netty.mapper.User">
+        insert into netty_user values(#{id,jdbcType=INTEGER},#{pwd,jdbcType=VARCHAR},#{name,jdbcType=VARCHAR})
+    </insert>
+
+    <!--查询所有数据-->
+    <select id="findAll" resultType="com.tang.netty.mapper.User">
+        select * from netty_user
+    </select>
+
+    <select id="findById" parameterType="integer" resultType="com.tang.netty.mapper.User">
+        select * from netty_user where id = #{id,jdbcType=INTEGER}
+    </select>
+
+</mapper>

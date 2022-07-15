@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.tang.boot.mapper.UserMapper">
+
+    <insert id="saveOrUpdate" useGeneratedKeys="true" parameterType="com.tang.boot.mapper.entity.UserT">
+        INSERT INTO users (userName,password,roles)
+        VALUES (#{userName}, #{password}, #{roles})
+    </insert>
+
+    <delete id="delete">
+        delete from users where userName = #{userName}
+    </delete>
+
+    <select id="getUserByName" resultType="com.tang.boot.mapper.entity.UserT">
+        select id,userName,password,roles from users where userName = #{userName}
+    </select>
+
+</mapper>

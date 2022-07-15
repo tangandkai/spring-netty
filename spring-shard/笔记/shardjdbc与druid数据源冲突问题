@@ -1,0 +1,20 @@
+在使用druid作为mysql数据源时，启动shardjdbc项目，会提示找不到datasource
+这是因为druid读取配置使用的前缀为spring.datasource/spring.datasource.druid
+而shardjdbc配置前缀为spring.shardingsphere,导致读取配置失败
+上述问题具有两种解决办法：
+1.在启动类的SpringBootApplication注解中添加@SpringBootApplication(exclude = {DruidDataSourceAutoConfigure.class})
+意为在启动时不要进行数据源初始化操作，等到shardjdbc启动完成之后，需要进行数据操作时mybatis使用datasource进行操作，此时的datasource是
+由shardjdbc获得。否则直接用springboot的druid进行datasource初始化，导致失败
+2.
+不用
+
+<dependency>
+    <groupId>com.alibaba</groupId>
+    <artifactId>druid-spring-boot-starter</artifactId>
+</dependency>
+改为
+
+<dependency>
+    <groupId>com.alibaba</groupId>
+    <artifactId>druid</artifactId>
+</dependency>

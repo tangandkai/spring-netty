@@ -1,0 +1,16 @@
+spring:
+  profiles:
+    active: dev
+
+  security:
+    user:
+      name: root
+      password: root
+      roles: ADMIN
+    oauth2:
+      client:
+        client-id: clientapp
+        client-secret: 123456
+      resourceserver:
+        token-info-uri: http://127.0.0.1:8080/oauth/check_token # 获得 Token 信息的 URL
+        access-token-uri: http://127.0.0.1:8080/oauth/token

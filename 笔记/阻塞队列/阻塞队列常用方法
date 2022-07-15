@@ -1,0 +1,24 @@
+抛出异常：add、remove、element
+    add：    内部调用offer，根据offer的返回值决定是否抛出异常
+    remove： 当队列元素为空时，继续删除会报错java.util.NoSuchElementException
+    element：返回队列的头部元素，但并不删除元素，当队列元素为空时会报错java.util.NoSuchElementException
+返回结果但不抛出异常：offer、poll、peek
+    offer：  添加元素，成功返回true，否则为false
+    poll：   删除元素，没有元素可删除时，返回null。需要注意的是不允许往队列中添加null，否则不能区分poll结果的汉阴
+    peek：   同element相似，为空时返回null
+阻塞：put、take
+    put：    插入元素，队列满时阻塞
+    take：   删除尾部元素，为空阻塞
+
+ArrayBlockingQueue：
+    其内部是用数组存储元素的，利用 ReentrantLock 实现线程安全。
+    我们在创建它的时候就需要指定它的容量，之后也不可以再扩容了，在构造函数中我们同样可以指定是否是公平的，代码如下：
+    ArrayBlockingQueue(int capacity, boolean fair)
+
+LinkedBlockingQueue：
+    内部用链表实现的 BlockingQueue。如果我们不指定它的初始容量，那么它容量默认就为整型的最大值 Integer.MAX_VALUE，由于这个数非常大，
+    我们通常不可能放入这么多的数据，所以 LinkedBlockingQueue 也被称作无界队列，代表它几乎没有界限
+
+SynchronousQueue：
+    SynchronousQueue 最大的不同之处在于，它的容量为 0，所以没有一个地方来暂存元素，导致每次取数据都要先阻塞，直到有数据被放入；同理，每次放数据的时候也会阻塞，直到有消费者来取。
+

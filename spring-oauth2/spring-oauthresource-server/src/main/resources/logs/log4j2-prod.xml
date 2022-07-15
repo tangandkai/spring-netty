@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 线上开发日志配置 -->
+<configuration status="OFF" monitorInterval="30">
+    <appenders>
+        <RollingFile name="DailyFile" fileName="/export/Logs/ge/info/info.log" filePattern="/export/Logs/ge/info/info-%d{yyyy-MM-dd}.log" append="true">
+            <PatternLayout>
+                <pattern>[%p][%t] %d %c.%M[line:%L] - LOG:[%m]%n</pattern>
+            </PatternLayout>
+            <Policies>
+                <TimeBasedTriggeringPolicy interval="1" modulate="true"/>
+                <!--<SizeBasedTriggeringPolicy size="50MB"/>-->
+            </Policies>
+            <!--<DefaultRolloverStrategy max="7"/>-->
+            <DefaultRolloverStrategy>
+                <!-- 配置说明:
+                  * 只处理位于logs文件夹下的文件.
+                  * 只处理以.log.zip结尾的文件 (name match)
+                  * 只处理最后一次修改时间超过4天的文件
+                -->
+                <Delete basePath="/export/Logs/ge/info/" maxDepth="1">
+                    <IfFileName glob="*.log" />
+                    <IfLastModified age="7d" />
+                </Delete>
+            </DefaultRolloverStrategy>
+        </RollingFile>
+    </appenders>
+    <loggers>
+        <root level="info">
+            <appender-ref ref="DailyFile"/>
+        </root>
+    </loggers>
+</configuration>

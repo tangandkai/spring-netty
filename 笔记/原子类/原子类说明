@@ -1,0 +1,13 @@
+原子类的作用和锁有类似之处，是为了保证并发情况下线程安全。不过原子类相比于锁，有一定的优势：
+    粒度更细：原子变量可以把竞争范围缩小到变量级别，通常情况下，锁的粒度都要大于原子变量的粒度。
+    效率更高：除了高度竞争的情况之外，使用原子类的效率通常会比使用同步互斥锁的效率更高，因为原子类底层利用了 CAS 操作，不会阻塞线程。
+
+下面我们来看下一共有哪些原子类，原子类一共可以分为以下这 6 类
+        类型                                                      具体类
+Atomic* 基本类型原子类                             AtomicInteger、AtomicLong、AtomicBoolean
+Atomic*Array 数组类型原子类                        AtomicIntegerArray、AtomicLongArray、AtomicReferenceArray
+Atomic*Reference 引用类型原子类                    AtomicReference、AtomicStampedReference、AtomicMarkableReference
+Atomic*FieldUpdater 升级类型原子类                 AtomicIntegerfieldupdater、AtomicLongFieldUpdater、AtomicReferenceFieldUpdater
+Adder 累加器                                       LongAdder、DoubleAdder
+Accumulator 积累器                                 LongAccumulator、DoubleAccumulator
+

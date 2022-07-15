@@ -1,0 +1,33 @@
+##数据源配置
+#spring:
+#  shardingsphere:
+#    props:
+#      sql:
+#        show: true
+#    datasource:
+#      names: dsmaster,dsslave0,dsslave1
+#      dsmaster:
+#        type: com.alibaba.druid.pool.DruidDataSource
+#        driver-class-name: com.mysql.jdbc.Driver
+#        url: jdbc:mysql://master:3306/dsmaster?serverTimezone=UTC&characterEncoding=utf-8&useSSL=false
+#        username: root
+#        password: Twk199475@ok
+#      dsslave0:
+#        type: com.alibaba.druid.pool.DruidDataSource
+#        driver-class-name: com.mysql.jdbc.Driver
+#        url: jdbc:mysql://master:3306/dsslave0?serverTimezone=UTC&characterEncoding=utf-8&useSSL=false
+#        username: root
+#        password: Twk199475@ok
+#      dsslave1:
+#        type: com.alibaba.druid.pool.DruidDataSource
+#        driver-class-name: com.mysql.jdbc.Driver
+#        url: jdbc:mysql://master:3306/dsslave1?serverTimezone=UTC&characterEncoding=utf-8&useSSL=false
+#        username: root
+#        password: Twk199475@ok
+#    #分库的分片策略
+#
+#    masterslave:
+#      name: health_ms
+#      master-data-source-name: dsmaster
+#      slave-data-source-names: dsslave0,dsslave1
+#      load-balance-algorithm-type: random

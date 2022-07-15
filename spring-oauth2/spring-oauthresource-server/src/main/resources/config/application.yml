@@ -1,0 +1,28 @@
+spring:
+  profiles:
+    active: dev
+  rabbitmq:
+    host: master
+
+#mybatis:
+#  configuration:
+#    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+#  #  configLocation: classpath:mybatis/mybatis-config.xml
+#  mapperLocations:
+#    - classpath:mappers/TransactionFirstMapper.xml
+#    - classpath:mappers/TransactionSecondMapper.xml
+#    - classpath:mappers/UserMapper.xml
+debug:
+  true
+logging:
+  config: classpath:logs/log4j2-dev.xml
+
+security:
+  oauth2:
+    access-token-uri: http://127.0.0.1:8081/oauth/token # 访问令牌获取 URL，自定义的
+    #OAuth2 Client 配置，对应 OAuth2ClientProperties 类
+    client:
+      client-id: clientapp
+      client-secret: 112233
+    resource:
+      token-info-uri: http://127.0.0.1:8081/oauth/check_token # 获得 Token 信息的 URL

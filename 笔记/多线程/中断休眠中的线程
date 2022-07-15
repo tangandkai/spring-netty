@@ -1,0 +1,2 @@
+可以使用interrupt()中断线程
+当线程处于休眠状态时，会抛出InterruptedException异常，同时清除中断标志位

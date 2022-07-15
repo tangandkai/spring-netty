@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="spring-threads" />
+        <module name="spring-shiro" />
+        <module name="spring-blog-common" />
+        <module name="spring-oauthresource-server" />
+        <module name="spring-shard" />
+        <module name="spring-reactor" />
+        <module name="spring-netty" />
+        <module name="spring-blogs" />
+        <module name="spring-security" />
+        <module name="spring-boot" />
+        <module name="spring-rpc" />
+        <module name="tang-springboot-httpserver-starter" />
+        <module name="spring-sureness" />
+        <module name="spring-authorization-server" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="spring-original" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="spring-authorization-server" options="-parameters" />
+      <module name="spring-blog-common" options="-parameters" />
+      <module name="spring-blogs" options="-parameters" />
+      <module name="spring-boot" options="-parameters" />
+      <module name="spring-netty" options="" />
+      <module name="spring-oauth2" options="-parameters" />
+      <module name="spring-oauthresource-server" options="-parameters" />
+      <module name="spring-original" options="-parameters" />
+      <module name="spring-reactor" options="" />
+      <module name="spring-rpc" options="" />
+      <module name="spring-security" options="-parameters" />
+      <module name="spring-shard" options="-parameters" />
+      <module name="spring-shiro" options="-parameters" />
+      <module name="spring-sureness" options="-parameters" />
+      <module name="spring-threads" options="" />
+      <module name="tang-springboot-httpserver-starter" options="-parameters" />
+    </option>
+  </component>
+</project>

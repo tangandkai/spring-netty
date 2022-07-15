@@ -1,0 +1,26 @@
+Compiled from "RequestBasic1.java"
+public class com.tang.boot.beans.jackson.RequestBasic1 implements java.io.Serializable {
+  public com.tang.boot.beans.jackson.RequestBasic1();
+    Code:
+       0: aload_0
+       1: invokespecial #1                  // Method java/lang/Object."<init>":()V
+       4: aload_0
+       5: new           #2                  // class com/tang/boot/beans/jackson/RequestBasic1$Header
+       8: dup
+       9: invokespecial #3                  // Method com/tang/boot/beans/jackson/RequestBasic1$Header."<init>":()V
+      12: putfield      #4                  // Field header:Lcom/tang/boot/beans/jackson/RequestBasic1$Header;
+      15: return
+
+  public com.tang.boot.beans.jackson.RequestBasic1$Header getHeader();
+    Code:
+       0: aload_0
+       1: getfield      #4                  // Field header:Lcom/tang/boot/beans/jackson/RequestBasic1$Header;
+       4: areturn
+
+  public void setHeader(com.tang.boot.beans.jackson.RequestBasic1$Header);
+    Code:
+       0: aload_0
+       1: aload_1
+       2: putfield      #4                  // Field header:Lcom/tang/boot/beans/jackson/RequestBasic1$Header;
+       5: return
+}

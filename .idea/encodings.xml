@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://$PROJECT_DIR$/spring-blog-common/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-blog-common/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-blogs/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-blogs/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-boot/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-boot/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-netty/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-netty/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-oauth2/spring-authorization-server/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-oauth2/spring-oauthresource-server/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-reactor/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-rpc/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-rpc/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-security/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-security/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-shard/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-shard/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-shiro/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-sureness/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-sureness/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-threads/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-threads/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/tang-springboot-httpserver-starter/src/main/java" charset="UTF-8" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>

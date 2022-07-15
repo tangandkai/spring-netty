@@ -1,0 +1,12 @@
+spring:
+  profiles:
+    active: dev
+
+mybatis:
+  configLocation: classpath:mybatis/mybatis-config.xml
+  mapperLocations:
+    - classpath:mybatis/mappers/HealthLevelMapper.xml
+    - classpath:mybatis/mappers/HealthRecordMapper.xml
+    - classpath:mybatis/mappers/HealthTaskMapper.xml
+    - classpath:mybatis/mappers/HealthUserMapper.xml
+  typeAliasesPackage: com.tang.shard.mapper.entity

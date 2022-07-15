@@ -1,0 +1,2 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+  com.tang.springboot.httpserver.starter.tangspringboothttpserverstarter.autoconfigure.TangServerAutoConfiguration

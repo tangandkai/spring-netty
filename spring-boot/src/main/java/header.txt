@@ -1,0 +1,26 @@
+Compiled from "RequestBasic.java"
+public class com.tang.boot.beans.jackson.RequestBasic$Header implements java.io.Serializable {
+  final com.tang.boot.beans.jackson.RequestBasic this$0;
+
+  public com.tang.boot.beans.jackson.RequestBasic$Header(com.tang.boot.beans.jackson.RequestBasic);
+    Code:
+       0: aload_0
+       1: aload_1
+       2: putfield      #1                  // Field this$0:Lcom/tang/boot/beans/jackson/RequestBasic;
+       5: aload_0
+       6: invokespecial #2                  // Method java/lang/Object."<init>":()V
+       9: return
+
+  public void setCode(java.lang.String);
+    Code:
+       0: aload_0
+       1: aload_1
+       2: putfield      #3                  // Field code:Ljava/lang/String;
+       5: return
+
+  public java.lang.String getCode();
+    Code:
+       0: aload_0
+       1: getfield      #3                  // Field code:Ljava/lang/String;
+       4: areturn
+}

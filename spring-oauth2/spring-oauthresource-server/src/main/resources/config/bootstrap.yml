@@ -1,0 +1,22 @@
+server:
+  port: 8082
+
+spring:
+  application:
+    name: spring-oauth-resource-server
+  #  datasource:
+#    type: com.alibaba.druid.pool.DruidDataSource
+#    url: jdbc:mysql://master:3306/spring?serverTimezone=UTC&characterEncoding=utf-8&useSSL=false
+#    username: root
+#    password: Twk199475@ok
+#    driver-class-name: com.mysql.jdbc.Driver
+
+  cloud:
+    nacos:
+      discovery:
+        server-addr: master:8848 #Nacos服务注册中心地址
+      config:
+        server-addr: master:8848 #Nacos作为配置中心地址
+        file-extension: yaml #指定yaml格式的配置
+        group: MY_GROUP
+        namespace: 86cedb47-0cdf-45ad-aa20-84a282001817
