@@ -28,11 +28,11 @@
       <module name="spring-blogs" target="1.8" />
       <module name="spring-boot" target="1.8" />
       <module name="spring-netty" target="1.8" />
-      <module name="spring-netty (1) (com.tang.netty)" target="1.7" />
+      <module name="spring-netty (1) (com.tang.netty)" target="1.8" />
       <module name="spring-oauth2" target="1.8" />
       <module name="spring-oauthresource-server" target="1.8" />
       <module name="spring-reactor" target="1.8" />
-      <module name="spring-rpc" target="1.7" />
+      <module name="spring-rpc" target="1.8" />
       <module name="spring-security" target="1.8" />
       <module name="spring-shard" target="1.8" />
       <module name="spring-shiro" target="1.8" />
@@ -40,5 +40,19 @@
       <module name="spring-threads" target="1.8" />
       <module name="tang-springboot-httpserver-starter" target="1.8" />
     </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="spring-authorization-server" options="-parameters" />
+      <module name="spring-blog-common" options="-parameters" />
+      <module name="spring-blogs" options="-parameters" />
+      <module name="spring-boot" options="-parameters" />
+      <module name="spring-oauthresource-server" options="-parameters" />
+      <module name="spring-security" options="-parameters" />
+      <module name="spring-shard" options="-parameters" />
+      <module name="spring-shiro" options="-parameters" />
+      <module name="spring-sureness" options="-parameters" />
+      <module name="tang-springboot-httpserver-starter" options="-parameters" />
+    </option>
   </component>
 </project>
