@@ -4,8 +4,4 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-4.2.xsd http://www.springframework.org/schema/aop https://www.springframework.org/schema/aop/spring-aop.xsd">
 
     <aop:aspectj-autoproxy proxy-target-class="true"/>
-
-    <!--<import resource="spring-ump.xml"/>-->
-<!--    <import resource="spring-jsf-consumer.xml"/>-->
-    <!--<import resource="spring-jsf-provider.xml"/>-->
 </beans>

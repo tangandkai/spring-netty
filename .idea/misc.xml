@@ -1,28 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="ExternalStorageConfigurationManager" enabled="true" />
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/spring-blog-common/pom.xml" />
-        <option value="$PROJECT_DIR$/spring-blogs/pom.xml" />
-        <option value="$PROJECT_DIR$/spring-shard/pom.xml" />
-        <option value="$PROJECT_DIR$/spring-sureness/pom.xml" />
-        <option value="$PROJECT_DIR$/spring-security/pom.xml" />
-        <option value="$PROJECT_DIR$/spring-boot/pom.xml" />
-        <option value="$PROJECT_DIR$/spring-shiro/pom.xml" />
-        <option value="$PROJECT_DIR$/spring-oauth2/spring-authorization-server/pom.xml" />
-        <option value="$PROJECT_DIR$/spring-oauth2/spring-oauthresource-server/pom.xml" />
       </list>
     </option>
-    <option name="ignoredFiles">
-      <set>
-        <option value="$PROJECT_DIR$/spring-original/pom.xml" />
-      </set>
-    </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8 (2)" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
   </component>
 </project>

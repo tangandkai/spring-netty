@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/spring-oauth2/spring-authorization-server/spring-authorization-server.iml" filepath="$PROJECT_DIR$/spring-oauth2/spring-authorization-server/spring-authorization-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-blog-common/spring-blog-common.iml" filepath="$PROJECT_DIR$/spring-blog-common/spring-blog-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-blogs/spring-blogs.iml" filepath="$PROJECT_DIR$/spring-blogs/spring-blogs.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot/spring-boot.iml" filepath="$PROJECT_DIR$/spring-boot/spring-boot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/spring-netty.iml" filepath="$PROJECT_DIR$/.idea/spring-netty.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-netty/spring-netty (1) (com.tang.netty).iml" filepath="$PROJECT_DIR$/spring-netty/spring-netty (1) (com.tang.netty).iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-oauth2/spring-oauth2.iml" filepath="$PROJECT_DIR$/spring-oauth2/spring-oauth2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-oauth2/spring-oauthresource-server/spring-oauthresource-server.iml" filepath="$PROJECT_DIR$/spring-oauth2/spring-oauthresource-server/spring-oauthresource-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-reactor/spring-reactor.iml" filepath="$PROJECT_DIR$/spring-reactor/spring-reactor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-rpc/spring-rpc.iml" filepath="$PROJECT_DIR$/spring-rpc/spring-rpc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-security/spring-security.iml" filepath="$PROJECT_DIR$/spring-security/spring-security.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-shard/spring-shard.iml" filepath="$PROJECT_DIR$/spring-shard/spring-shard.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-shiro/spring-shiro.iml" filepath="$PROJECT_DIR$/spring-shiro/spring-shiro.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-sureness/spring-sureness.iml" filepath="$PROJECT_DIR$/spring-sureness/spring-sureness.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-threads/spring-threads.iml" filepath="$PROJECT_DIR$/spring-threads/spring-threads.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tang-springboot-httpserver-starter/tang-springboot-httpserver-starter.iml" filepath="$PROJECT_DIR$/tang-springboot-httpserver-starter/tang-springboot-httpserver-starter.iml" />
+    </modules>
+  </component>
+</project>
