@@ -4,19 +4,39 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f1a18d8d-8417-4067-8fd9-8a379a4747cf" name="Changes" comment="" />
+    <list default="true" id="2cd57bfe-89cb-43e1-b70e-82bcb4dd8de7" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="Git.Settings">
-    <option name="RECENT_BRANCH_BY_REPOSITORY">
-      <map>
-        <entry key="$PROJECT_DIR$" value="main" />
-      </map>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="FxmlFile" />
+        <option value="AnnotationType" />
+        <option value="Interface" />
+        <option value="HTML File" />
+        <option value="JUnit5 Test Class" />
+        <option value="Class" />
+      </list>
     </option>
+  </component>
+  <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -24,30 +44,183 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="mavenHome" value="$USER_HOME$/maven-3.8.6" />
-        <option name="useMavenConfig" value="true" />
-        <option name="userSettingsFile" value="$USER_HOME$/maven-3.8.6/conf/settings.xml" />
+        <option name="localRepository" value="D:\respository\repository" />
+        <option name="mavenHome" value="D:/apache-maven-3.8.4-bin" />
+        <option name="userSettingsFile" value="D:\apache-maven-3.8.4-bin\apache-maven-3.8.4\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="ProjectId" id="2Ivt17yCLmlRTVfGlm1bT7uOwLj" />
+  <component name="ProjectId" id="1qmuoIFBnXND40ZQ1RjaMa6SsyD" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
-    <option name="showVisibilityIcons" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "settings.editor.selected.configurable": "MavenSettings"
-  }
-}]]></component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunConfigurationTargetLRU" value="5131e074-0bb1-4f22-8263-459b22046099/schema/&quot;spring&quot;" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8 (2)" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Problems" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
   <component name="RebelAgentSelection">
     <selection>jr</selection>
   </component>
-  <component name="RunManager" selected="Spring Boot.SpringSecurityApplication">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Springboot\my_blogs\spring-boot\src\main\java\com\tang\boot\utils" />
+      <recent name="E:\Springboot\my_blogs\spring-oauth2\spring-oauthresource-server\src\main\resources" />
+      <recent name="E:\Springboot\my_blogs\spring-oauth2\spring-authorization-server\src\main\resources" />
+      <recent name="E:\Springboot\my_blogs\spring-shiro\src\main\resources" />
+      <recent name="E:\Springboot\my_blogs\spring-shiro\src\main\resources\config" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\Springboot\my_blogs\spring-boot\src\main\resources\spring" />
+      <recent name="F:\Springboot\my_blogs\spring-netty\src\main\resources\mybatis" />
+      <recent name="F:\Springboot\my_blogs\spring-original\src\main\resources\config" />
+      <recent name="F:\Springboot\my_blogs\spring-blogs\src\main\resources\config" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.tang.oauthserver.springauthorizationserver" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.tang.boot.utils" />
+      <recent name="com.tang.boot.single" />
+      <recent name="com.tang.boot.services" />
+      <recent name="com.tang.boot.amqp.producer" />
+      <recent name="com.tang.boot.amqp.consumer" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.tang.boot.beans.jackson" />
+      <recent name="com.tang.boot.utils" />
+      <recent name="com.tang.boot.services.impl" />
+      <recent name="com.tang.boot.beans" />
+      <recent name="com.tang.boot.mapper" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn clean" />
+      <command value="mvn compile" />
+    </option>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.ClientDemo">
+    <configuration name="ClientDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.tang.nio.tcp.ClientDemo" />
+      <module name="spring-netty" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tang.nio.tcp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServerDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.tang.nio.tcp.ServerDemo" />
+      <module name="spring-netty" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tang.nio.tcp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JsonUtilTest.parseObject" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-boot" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tang.boot.utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.tang.boot.utils" />
+      <option name="MAIN_CLASS_NAME" value="com.tang.boot.utils.JsonUtilTest" />
+      <option name="METHOD_NAME" value="parseObject" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JsonUtilTest.parseObject1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-boot" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tang.boot.utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.tang.boot.utils" />
+      <option name="MAIN_CLASS_NAME" value="com.tang.boot.utils.JsonUtilTest" />
+      <option name="METHOD_NAME" value="parseObject1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JsonUtilTest.reflect" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-boot" />
+      <extension name="coverage" track_test_folders="true">
+        <pattern>
+          <option name="PATTERN" value="com.tang.boot.utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.tang.boot.utils" />
+      <option name="MAIN_CLASS_NAME" value="com.tang.boot.utils.JsonUtilTest" />
+      <option name="METHOD_NAME" value="reflect" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="spring-demo" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="spring-demo" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SpringAuthorizationServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="spring-authorization-server" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.tang.oauthserver.springauthorizationserver.SpringAuthorizationServerApplication" />
@@ -111,31 +284,358 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="JUnit.JsonUtilTest.parseObject" />
+      <item itemvalue="JUnit.JsonUtilTest.parseObject1" />
+      <item itemvalue="JUnit.JsonUtilTest.reflect" />
+      <item itemvalue="Application.ServerDemo" />
+      <item itemvalue="Application.ClientDemo" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.ClientDemo" />
+        <item itemvalue="Application.ServerDemo" />
+        <item itemvalue="JUnit.JsonUtilTest.reflect" />
+        <item itemvalue="JUnit.JsonUtilTest.parseObject1" />
+        <item itemvalue="JUnit.JsonUtilTest.parseObject" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="f1a18d8d-8417-4067-8fd9-8a379a4747cf" name="Changes" comment="" />
-      <created>1671073667743</created>
+      <changelist id="2cd57bfe-89cb-43e1-b70e-82bcb4dd8de7" name="Default Changelist" comment="" />
+      <created>1617697262928</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1671073667743</updated>
-      <workItem from="1671073670137" duration="1253000" />
+      <updated>1617697262928</updated>
+      <workItem from="1624860089927" duration="2900000" />
+      <workItem from="1626684138478" duration="2969000" />
+      <workItem from="1626696251950" duration="4712000" />
+      <workItem from="1626749406760" duration="42000" />
+      <workItem from="1626943498113" duration="117000" />
+      <workItem from="1627369578865" duration="980000" />
+      <workItem from="1627442088612" duration="649000" />
+      <workItem from="1627560171599" duration="638000" />
+      <workItem from="1627910946006" duration="694000" />
+      <workItem from="1627956960969" duration="1672000" />
+      <workItem from="1628134598209" duration="9836000" />
+      <workItem from="1629204588175" duration="112000" />
+      <workItem from="1630418838878" duration="750000" />
+      <workItem from="1630584216213" duration="1737000" />
+      <workItem from="1630640383234" duration="69000" />
+      <workItem from="1631091662282" duration="7225000" />
+      <workItem from="1631192330192" duration="7424000" />
+      <workItem from="1631522847343" duration="8708000" />
+      <workItem from="1631622763232" duration="2684000" />
+      <workItem from="1631688392071" duration="800000" />
+      <workItem from="1631711283616" duration="2079000" />
+      <workItem from="1631780544627" duration="12772000" />
+      <workItem from="1631846808397" duration="68000" />
+      <workItem from="1631879100769" duration="5658000" />
+      <workItem from="1631929322403" duration="104000" />
+      <workItem from="1631930867291" duration="683000" />
+      <workItem from="1631956885057" duration="2084000" />
+      <workItem from="1632277347989" duration="364000" />
+      <workItem from="1632282463355" duration="27481000" />
+      <workItem from="1632363156265" duration="16594000" />
+      <workItem from="1632390215091" duration="638000" />
+      <workItem from="1632400068897" duration="16000" />
+      <workItem from="1632401243462" duration="1361000" />
+      <workItem from="1632486406940" duration="1196000" />
+      <workItem from="1632622531864" duration="7969000" />
+      <workItem from="1632708342050" duration="13438000" />
+      <workItem from="1634563909449" duration="2703000" />
+      <workItem from="1634636957877" duration="1522000" />
+      <workItem from="1634640890681" duration="4428000" />
+      <workItem from="1634713131647" duration="8895000" />
+      <workItem from="1634797065306" duration="18538000" />
+      <workItem from="1634886665247" duration="1002000" />
+      <workItem from="1634894920682" duration="880000" />
+      <workItem from="1635131231237" duration="17861000" />
+      <workItem from="1635215035303" duration="6385000" />
+      <workItem from="1635301384148" duration="3124000" />
+      <workItem from="1635389741302" duration="8414000" />
+      <workItem from="1635486474478" duration="1827000" />
+      <workItem from="1635527497352" duration="887000" />
+      <workItem from="1635685047933" duration="1185000" />
+      <workItem from="1635770087209" duration="709000" />
+      <workItem from="1635843545255" duration="664000" />
+      <workItem from="1635907672308" duration="52000" />
+      <workItem from="1636946298340" duration="596000" />
+      <workItem from="1636961562699" duration="1784000" />
+      <workItem from="1637137897492" duration="1855000" />
+      <workItem from="1637140306165" duration="4641000" />
+      <workItem from="1637289316824" duration="876000" />
+      <workItem from="1637754482487" duration="152000" />
+      <workItem from="1637843972959" duration="635000" />
+      <workItem from="1638168879421" duration="167000" />
+      <workItem from="1638352130909" duration="3038000" />
+      <workItem from="1638429933400" duration="1784000" />
+      <workItem from="1638774102559" duration="620000" />
+      <workItem from="1638857132286" duration="117000" />
+      <workItem from="1640745637097" duration="5338000" />
+      <workItem from="1641367849317" duration="29183000" />
+      <workItem from="1641803572795" duration="677000" />
+      <workItem from="1646124325445" duration="1280000" />
+      <workItem from="1646395662493" duration="1357000" />
+      <workItem from="1647854333697" duration="7364000" />
+      <workItem from="1648088113964" duration="124000" />
+      <workItem from="1648546253485" duration="3265000" />
+      <workItem from="1648690052876" duration="1974000" />
+      <workItem from="1648890400260" duration="148000" />
+      <workItem from="1649077575683" duration="1253000" />
+      <workItem from="1649338268437" duration="3126000" />
+      <workItem from="1649568364941" duration="1481000" />
+      <workItem from="1651402466048" duration="17974000" />
+      <workItem from="1652354346791" duration="6459000" />
+      <workItem from="1652597377591" duration="5592000" />
+      <workItem from="1652664609549" duration="3265000" />
+      <workItem from="1653879972365" duration="984000" />
+      <workItem from="1654057369193" duration="1443000" />
+      <workItem from="1654092637933" duration="386000" />
+      <workItem from="1654094514570" duration="192000" />
+      <workItem from="1654143285555" duration="3693000" />
+      <workItem from="1654398756432" duration="7667000" />
+      <workItem from="1654481372711" duration="33000" />
+      <workItem from="1654522393195" duration="1828000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.sql" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/spring-blogs/src/main/java/com/tang/blog/service/aop.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$PROJECT_DIR$/../../respository/repository/com/usthe/sureness/sureness-core/1.0.3/sureness-core-1.0.3.jar!/com/usthe/sureness/mgt/SurenessSecurityManager.class</url>
+          <line>39</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$PROJECT_DIR$/../../respository/repository/com/usthe/sureness/sureness-core/1.0.3/sureness-core-1.0.3.jar!/com/usthe/sureness/mgt/SurenessSecurityManager.class</url>
+          <line>60</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$PROJECT_DIR$/../../respository/repository/org/springframework/security/spring-security-config/5.3.4.RELEASE/spring-security-config-5.3.4.RELEASE-sources.jar!/org/springframework/security/config/annotation/authentication/builders/AuthenticationManagerBuilder.java</url>
+          <line>185</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$PROJECT_DIR$/../../respository/repository/org/springframework/security/spring-security-config/5.3.4.RELEASE/spring-security-config-5.3.4.RELEASE-sources.jar!/org/springframework/security/config/annotation/authentication/builders/AuthenticationManagerBuilder.java</url>
+          <line>288</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/spring-threads/src/main/java/com/tang/arrays/Sort.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$PROJECT_DIR$/../../jdk1.8.0_201/src.zip!/java/util/concurrent/SynchronousQueue.java</url>
+          <line>875</line>
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/spring-netty/src/main/java/com/tang/netty/bound/MyServer.java</url>
+          <line>52</line>
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/spring-netty/src/main/java/com/tang/netty/bound/MyServer.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="41" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$PROJECT_DIR$/../../respository/repository/io/netty/netty-transport/4.1.50.Final/netty-transport-4.1.50.Final-sources.jar!/io/netty/bootstrap/AbstractBootstrap.java</url>
+          <line>355</line>
+          <option name="timeStamp" value="42" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$PROJECT_DIR$/../../respository/repository/org/springframework/spring-beans/5.2.8.RELEASE/spring-beans-5.2.8.RELEASE-sources.jar!/org/springframework/beans/factory/support/AbstractBeanFactory.java</url>
+          <line>242</line>
+          <option name="timeStamp" value="44" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/spring-original/src/main/java/com/tang/original/App.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="61" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/spring-boot/src/main/java/com/tang/boot/cache/CacheServiceAspect.java</url>
+          <line>72</line>
+          <option name="timeStamp" value="66" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/spring-boot/src/main/java/com/tang/boot/cache/CacheServiceAspect.java</url>
+          <line>69</line>
+          <option name="timeStamp" value="67" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$PROJECT_DIR$/../../respository/repository/org/springframework/spring-beans/5.2.8.RELEASE/spring-beans-5.2.8.RELEASE-sources.jar!/org/springframework/beans/factory/support/AbstractBeanFactory.java</url>
+          <line>341</line>
+          <option name="timeStamp" value="72" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$PROJECT_DIR$/../../respository/repository/org/springframework/spring-beans/5.2.8.RELEASE/spring-beans-5.2.8.RELEASE-sources.jar!/org/springframework/beans/factory/support/AbstractAutowireCapableBeanFactory.java</url>
+          <line>592</line>
+          <option name="timeStamp" value="73" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/spring-original/src/main/java/com/tang/original/App.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="75" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$PROJECT_DIR$/../../respository/repository/org/springframework/spring-beans/5.2.8.RELEASE/spring-beans-5.2.8.RELEASE-sources.jar!/org/springframework/beans/factory/support/AbstractAutowireCapableBeanFactory.java</url>
+          <line>1797</line>
+          <option name="timeStamp" value="77" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$PROJECT_DIR$/../../respository/repository/org/springframework/spring-beans/5.2.8.RELEASE/spring-beans-5.2.8.RELEASE-sources.jar!/org/springframework/beans/factory/support/AbstractBeanFactory.java</url>
+          <line>323</line>
+          <option name="timeStamp" value="79" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$PROJECT_DIR$/../../respository/repository/org/springframework/spring-aop/5.2.8.RELEASE/spring-aop-5.2.8.RELEASE-sources.jar!/org/springframework/aop/framework/autoproxy/AbstractAutoProxyCreator.java</url>
+          <line>298</line>
+          <option name="timeStamp" value="80" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://D:/respository/repository/org/springframework/security/oauth/spring-security-oauth2/2.3.4.RELEASE/spring-security-oauth2-2.3.4.RELEASE.jar!/org/springframework/security/oauth2/provider/endpoint/CheckTokenEndpoint.class</url>
+          <line>47</line>
+          <option name="timeStamp" value="81" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/spring-boot/src/test/java/com/tang/boot/services/sTest.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="83" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/spring-threads/src/main/java/com/tang/arrays/HashMapT.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="92" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://D:/jdk1.8.0_201/src.zip!/java/util/HashMap.java</url>
+          <line>626</line>
+          <option name="timeStamp" value="94" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/spring-threads/src/main/java/com/tang/arrays/LinkListT.java</url>
+          <line>113</line>
+          <option name="timeStamp" value="96" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/spring-threads/src/main/java/com/tang/collect/MapT.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="98" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/spring-blogs/src/main/java/com/tang/main/parent/app.java</url>
+          <line>6</line>
+          <option name="timeStamp" value="99" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://D:/respository/repository/org/springframework/spring-beans/5.2.15.RELEASE/spring-beans-5.2.15.RELEASE-sources.jar!/org/springframework/beans/factory/config/BeanPostProcessor.java</url>
+          <line>57</line>
+          <option name="timeStamp" value="101" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://D:/respository/repository/org/springframework/spring-beans/5.2.15.RELEASE/spring-beans-5.2.15.RELEASE-sources.jar!/org/springframework/beans/factory/support/AbstractAutowireCapableBeanFactory.java</url>
+          <line>303</line>
+          <option name="timeStamp" value="102" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://D:/respository/repository/org/springframework/boot/spring-boot/2.3.12.RELEASE/spring-boot-2.3.12.RELEASE.jar!/org/springframework/boot/SpringApplication.class</url>
+          <line>152</line>
+          <option name="timeStamp" value="103" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://D:/respository/repository/org/springframework/spring-context/5.2.15.RELEASE/spring-context-5.2.15.RELEASE-sources.jar!/org/springframework/context/support/AbstractApplicationContext.java</url>
+          <line>550</line>
+          <option name="timeStamp" value="105" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://D:/respository/repository/org/springframework/spring-context/5.2.15.RELEASE/spring-context-5.2.15.RELEASE-sources.jar!/org/springframework/context/support/AbstractApplicationContext.java</url>
+          <line>866</line>
+          <option name="timeStamp" value="106" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://D:/respository/repository/org/springframework/spring-context/5.2.15.RELEASE/spring-context-5.2.15.RELEASE-sources.jar!/org/springframework/context/support/GenericApplicationContext.java</url>
+          <line>461</line>
+          <option name="timeStamp" value="107" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://D:/respository/repository/org/springframework/spring-beans/5.2.15.RELEASE/spring-beans-5.2.15.RELEASE-sources.jar!/org/springframework/beans/factory/support/DefaultListableBeanFactory.java</url>
+          <line>928</line>
+          <option name="timeStamp" value="108" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://D:/respository/repository/org/springframework/spring-beans/5.2.15.RELEASE/spring-beans-5.2.15.RELEASE-sources.jar!/org/springframework/beans/factory/support/AbstractAutowireCapableBeanFactory.java</url>
+          <line>482</line>
+          <option name="timeStamp" value="109" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://D:/respository/repository/org/springframework/boot/spring-boot/2.3.12.RELEASE/spring-boot-2.3.12.RELEASE.jar!/org/springframework/boot/SpringApplication.class</url>
+          <line>138</line>
+          <option name="timeStamp" value="110" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://D:/respository/repository/org/springframework/boot/spring-boot/2.3.12.RELEASE/spring-boot-2.3.12.RELEASE.jar!/org/springframework/boot/SpringApplication.class</url>
+          <line>149</line>
+          <option name="timeStamp" value="111" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://D:/respository/repository/org/springframework/boot/spring-boot/2.3.12.RELEASE/spring-boot-2.3.12.RELEASE.jar!/org/springframework/boot/SpringApplication.class</url>
+          <line>150</line>
+          <option name="timeStamp" value="112" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://D:/respository/repository/org/springframework/boot/spring-boot/2.3.12.RELEASE/spring-boot-2.3.12.RELEASE.jar!/org/springframework/boot/SpringApplication.class</url>
+          <line>151</line>
+          <option name="timeStamp" value="113" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/spring-threads/src/main/java/com/tang/queue/DIY/app.java</url>
+          <line>9</line>
+          <properties class="com.tang.queue.DIY.app" method="main">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="io.netty.channel.nio.NioEventLoop" memberName="ioRatio" />
+        <PinnedItemInfo parentTag="sun.nio.ch.WindowsSelectorImpl" memberName="INIT_CAP" />
+        <PinnedItemInfo parentTag="java.lang.Integer" memberName="value" />
+        <PinnedItemInfo parentTag="java.util.HashMap$Node" memberName="value" />
+        <PinnedItemInfo parentTag="java.lang.String" memberName="value" />
+      </pinned-members>
+    </pin-to-top-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/my_blogs$JsonUtilTest_reflect.ic" NAME="JsonUtilTest.reflect Coverage Results" MODIFIED="1652665284752" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.tang.boot.utils.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/my_blogs$MyClient.ic" NAME="MyClient Coverage Results" MODIFIED="1626330067932" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.tang.netty.bound.*</FILTER>
+    </SUITE>
   </component>
 </project>
