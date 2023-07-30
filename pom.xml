@@ -30,14 +30,15 @@
         <module>tang-springboot-httpserver-starter</module>
         <module>spring-shiro</module>
         <module>spring-oauth2</module>
+        <module>spring-es</module>
     </modules>
 
     <packaging>pom</packaging>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <maven.compiler.source>1.8</maven.compiler.source>
-        <maven.compiler.target>1.8</maven.compiler.target>
+        <maven.compiler.source>11</maven.compiler.source>
+        <maven.compiler.target>11</maven.compiler.target>
         <project-version>2.2.1.RELEASE</project-version>
         <spring.cloud-version>Hoxton.SR8</spring.cloud-version>
         <mybatis.version>2.1.4</mybatis.version>

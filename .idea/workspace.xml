@@ -4,10 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2cd57bfe-89cb-43e1-b70e-82bcb4dd8de7" name="Default Changelist" comment="">
+    <list default="true" id="2cd57bfe-89cb-43e1-b70e-82bcb4dd8de7" name="Default Changelist" comment="ff">
+      <change afterPath="$PROJECT_DIR$/spring-es/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-es/src/main/java/com/tang/es/App.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-rpc/target/classes/com/tang/rpc/codec/RpcDecoder.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-rpc/target/classes/com/tang/rpc/codec/RpcDecoder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-rpc/target/classes/com/tang/rpc/codec/RpcEncoder.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-rpc/target/classes/com/tang/rpc/codec/RpcEncoder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-rpc/target/classes/com/tang/rpc/protocol/Request.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-rpc/target/classes/com/tang/rpc/protocol/Request.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-rpc/target/classes/com/tang/rpc/proxy/RpcProxy.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-rpc/target/classes/com/tang/rpc/proxy/RpcProxy.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-rpc/target/classes/com/tang/rpc/registry/AbstractServiceInstanceListener$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-rpc/target/classes/com/tang/rpc/registry/AbstractServiceInstanceListener$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-rpc/target/classes/com/tang/rpc/transport/Connection.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-rpc/target/classes/com/tang/rpc/transport/Connection.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-rpc/target/classes/com/tang/rpc/transport/InvokeRunnable.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-rpc/target/classes/com/tang/rpc/transport/InvokeRunnable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-rpc/target/classes/com/tang/rpc/transport/NettyEventLoopFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-rpc/target/classes/com/tang/rpc/transport/NettyEventLoopFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-rpc/target/classes/com/tang/rpc/transport/RpcClientHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-rpc/target/classes/com/tang/rpc/transport/RpcClientHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-rpc/target/classes/com/tang/rpc/transport/RpcServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-rpc/target/classes/com/tang/rpc/transport/RpcServer.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,7 +88,7 @@
     <property name="jdk.selected.JAVA_MODULE" value="1.8 (2)" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Problems" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
@@ -133,7 +147,33 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ClientDemo">
+  <component name="RunManager" selected="Application.App (1)">
+    <configuration name="App (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.tang.es.App" />
+      <module name="spring-es" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tang.es.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.tang.rpc.App" />
+      <module name="spring-rpc" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tang.rpc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ClientDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.tang.nio.tcp.ClientDemo" />
       <module name="spring-netty" />
@@ -147,12 +187,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ServerDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.tang.nio.tcp.ServerDemo" />
+    <configuration name="NettyClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.tang.netty.codec.NettyClient" />
       <module name="spring-netty" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.tang.nio.tcp.*" />
+          <option name="PATTERN" value="com.tang.netty.codec.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -160,63 +200,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JsonUtilTest.parseObject" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring-boot" />
+    <configuration name="NettyServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.tang.netty.codec.NettyServer" />
+      <module name="spring-netty" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.tang.boot.utils.*" />
+          <option name="PATTERN" value="com.tang.netty.codec.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.tang.boot.utils" />
-      <option name="MAIN_CLASS_NAME" value="com.tang.boot.utils.JsonUtilTest" />
-      <option name="METHOD_NAME" value="parseObject" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="JsonUtilTest.parseObject1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring-boot" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.tang.boot.utils.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.tang.boot.utils" />
-      <option name="MAIN_CLASS_NAME" value="com.tang.boot.utils.JsonUtilTest" />
-      <option name="METHOD_NAME" value="parseObject1" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="JsonUtilTest.reflect" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring-boot" />
-      <extension name="coverage" track_test_folders="true">
-        <pattern>
-          <option name="PATTERN" value="com.tang.boot.utils.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.tang.boot.utils" />
-      <option name="MAIN_CLASS_NAME" value="com.tang.boot.utils.JsonUtilTest" />
-      <option name="METHOD_NAME" value="reflect" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="JetRunConfigurationType">
-      <module name="spring-demo" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="spring-demo" />
-      <option name="filePath" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -285,19 +277,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.JsonUtilTest.parseObject" />
-      <item itemvalue="JUnit.JsonUtilTest.parseObject1" />
-      <item itemvalue="JUnit.JsonUtilTest.reflect" />
-      <item itemvalue="Application.ServerDemo" />
       <item itemvalue="Application.ClientDemo" />
+      <item itemvalue="Application.App" />
+      <item itemvalue="Application.NettyServer" />
+      <item itemvalue="Application.NettyClient" />
+      <item itemvalue="Application.App (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.App (1)" />
+        <item itemvalue="Application.NettyClient" />
+        <item itemvalue="Application.NettyServer" />
+        <item itemvalue="Application.App" />
         <item itemvalue="Application.ClientDemo" />
-        <item itemvalue="Application.ServerDemo" />
-        <item itemvalue="JUnit.JsonUtilTest.reflect" />
-        <item itemvalue="JUnit.JsonUtilTest.parseObject1" />
-        <item itemvalue="JUnit.JsonUtilTest.parseObject" />
       </list>
     </recent_temporary>
   </component>
@@ -400,6 +392,14 @@
       <workItem from="1654481372711" duration="33000" />
       <workItem from="1654522393195" duration="1828000" />
     </task>
+    <task id="LOCAL-00001" summary="ff">
+      <created>1671274392573</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1671274392573</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -407,6 +407,10 @@
   </component>
   <component name="UnknownFeatures">
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.sql" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="ff" />
+    <option name="LAST_COMMIT_MESSAGE" value="ff" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
