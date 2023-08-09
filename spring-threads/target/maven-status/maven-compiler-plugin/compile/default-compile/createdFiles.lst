@@ -4,7 +4,6 @@ com\tang\lock\MySynchronized.class
 com\tang\collect\MapT.class
 com\tang\queue\DIY\DIYQueue$DIYNode.class
 com\tang\queue\DIY\Queue$Node.class
-com\tang\threads\jj.class
 com\tang\arrays\Param.class
 com\tang\lock\Lock.class
 com\tang\queue\LinkedBlockingQueueT.class
@@ -20,7 +19,6 @@ com\tang\threads\MySynchronousQueue.class
 com\tang\queue\DIY\app.class
 com\tang\threads\ThreadPool$1.class
 com\tang\queue\DIY\DIYQueue.class
-com\tang\threads\App.class
 com\tang\arrays\LinkListT.class
 com\tang\threads\StopDuringSleep.class
 com\tang\arrays\HashMapT.class

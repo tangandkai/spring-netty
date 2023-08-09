@@ -1,8 +1,13 @@
 package com.tang.es;
 
+import com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication(exclude = {DruidDataSourceAutoConfigure.class})
 public class App {
 
     public static void main(String[] args) {
-        System.out.println("hello word");
+        SpringApplication.run(App.class, args);
     }
 }
