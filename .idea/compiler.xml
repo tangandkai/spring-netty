@@ -33,8 +33,8 @@
       <module name="spring-authorization-server" options="-parameters" />
       <module name="spring-blog-common" options="-parameters" />
       <module name="spring-blogs" options="-parameters" />
-      <module name="spring-boot" options="-parameters --add-modules java.base,java.sql" />
-      <module name="spring-es" options="-parameters --add-modules java.base" />
+      <module name="spring-boot" options="-parameters" />
+      <module name="spring-es" options="-parameters" />
       <module name="spring-netty" options="" />
       <module name="spring-oauth2" options="-parameters" />
       <module name="spring-oauthresource-server" options="-parameters" />
