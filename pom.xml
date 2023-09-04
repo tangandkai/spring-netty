@@ -31,6 +31,7 @@
         <module>spring-shiro</module>
         <module>spring-oauth2</module>
         <module>spring-es</module>
+        <module>spring-mq</module>
     </modules>
 
     <packaging>pom</packaging>

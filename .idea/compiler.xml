@@ -14,6 +14,7 @@
         <module name="spring-shard" />
         <module name="spring-reactor" />
         <module name="spring-netty" />
+        <module name="spring-mq" />
         <module name="spring-blogs" />
         <module name="spring-security" />
         <module name="spring-boot" />
@@ -35,6 +36,7 @@
       <module name="spring-blogs" options="-parameters" />
       <module name="spring-boot" options="-parameters" />
       <module name="spring-es" options="-parameters" />
+      <module name="spring-mq" options="-parameters" />
       <module name="spring-netty" options="" />
       <module name="spring-oauth2" options="-parameters" />
       <module name="spring-oauthresource-server" options="-parameters" />

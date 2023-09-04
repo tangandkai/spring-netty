@@ -5,16 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2cd57bfe-89cb-43e1-b70e-82bcb4dd8de7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/spring-es/src/main/java/com/tang/es/dao/ProductDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-es/src/main/java/com/tang/es/domain/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-es/src/main/java/com/tang/es/entity/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-es/src/test/java/com/tang/es/config/SpringDataElasticDocTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-es/src/test/java/com/tang/es/config/SpringDataElasticTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mq/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mq/src/main/java/com/tang/mq/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mq/src/main/java/com/tang/mq/simple/ConnectFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mq/src/main/java/com/tang/mq/simple/SimpleConsumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mq/src/main/java/com/tang/mq/simple/SimpleMultiConsumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mq/src/main/java/com/tang/mq/simple/SimpleMultiProducer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mq/src/main/java/com/tang/mq/simple/SimpleProducer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-es/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-es/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-es/src/main/java/com/tang/es/EsClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-es/src/main/java/com/tang/es/EsClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-es/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-es/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,7 +80,7 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8 (2)" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../netty-rpc" />
+    <property name="last_opened_file_path" value="D:/respository/repository/com/rabbitmq/amqp-client/5.18.0/amqp-client-5.18.0.jar" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
@@ -120,11 +121,11 @@
       <recent name="com.tang.boot.amqp.producer" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.tang.mq.simple" />
       <recent name="com.tang.es.config" />
       <recent name="com.tang.boot.beans.jackson" />
       <recent name="com.tang.boot.utils" />
       <recent name="com.tang.boot.services.impl" />
-      <recent name="com.tang.boot.beans" />
     </key>
   </component>
   <component name="RunAnythingCache">
@@ -141,20 +142,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Application.EsClient">
-    <configuration name="ClientBootstrap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.tang.netty.dubborpc.customer.ClientBootstrap" />
-      <module name="spring-netty" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.tang.netty.dubborpc.customer.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.SimpleMultiProducer">
     <configuration name="EsClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.tang.es.EsClient" />
       <module name="spring-es" />
@@ -168,50 +156,54 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SpringDataElasticDocTest.saveTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring-es" />
+    <configuration name="SimpleConsumer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.tang.mq.simple.SimpleConsumer" />
+      <module name="spring-mq" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.tang.es.config.*" />
+          <option name="PATTERN" value="com.tang.mq.simple.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.tang.es.config" />
-      <option name="MAIN_CLASS_NAME" value="com.tang.es.config.SpringDataElasticDocTest" />
-      <option name="METHOD_NAME" value="saveTest" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SpringDataElasticTest.createIndexTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring-es" />
+    <configuration name="SimpleMultiConsumer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.tang.mq.simple.SimpleMultiConsumer" />
+      <module name="spring-mq" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.tang.es.config.*" />
+          <option name="PATTERN" value="com.tang.mq.simple.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.tang.es.config" />
-      <option name="MAIN_CLASS_NAME" value="com.tang.es.config.SpringDataElasticTest" />
-      <option name="METHOD_NAME" value="createIndexTest" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SpringDataElasticTest.deleteIndexTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring-es" />
+    <configuration name="SimpleMultiProducer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.tang.mq.simple.SimpleMultiProducer" />
+      <module name="spring-mq" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.tang.es.config.*" />
+          <option name="PATTERN" value="com.tang.mq.simple.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.tang.es.config" />
-      <option name="MAIN_CLASS_NAME" value="com.tang.es.config.SpringDataElasticTest" />
-      <option name="METHOD_NAME" value="deleteIndexTest" />
-      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SimpleProducer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.tang.mq.simple.SimpleProducer" />
+      <module name="spring-mq" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tang.mq.simple.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -280,19 +272,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.ClientBootstrap" />
       <item itemvalue="Application.EsClient" />
-      <item itemvalue="JUnit.SpringDataElasticTest.createIndexTest" />
-      <item itemvalue="JUnit.SpringDataElasticTest.deleteIndexTest" />
-      <item itemvalue="JUnit.SpringDataElasticDocTest.saveTest" />
+      <item itemvalue="Application.SimpleProducer" />
+      <item itemvalue="Application.SimpleConsumer" />
+      <item itemvalue="Application.SimpleMultiProducer" />
+      <item itemvalue="Application.SimpleMultiConsumer" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SimpleMultiProducer" />
+        <item itemvalue="Application.SimpleMultiConsumer" />
+        <item itemvalue="Application.SimpleProducer" />
+        <item itemvalue="Application.SimpleConsumer" />
         <item itemvalue="Application.EsClient" />
-        <item itemvalue="JUnit.SpringDataElasticDocTest.saveTest" />
-        <item itemvalue="JUnit.SpringDataElasticTest.deleteIndexTest" />
-        <item itemvalue="JUnit.SpringDataElasticTest.createIndexTest" />
-        <item itemvalue="Application.ClientBootstrap" />
       </list>
     </recent_temporary>
   </component>
@@ -416,7 +408,14 @@
       <option name="project" value="LOCAL" />
       <updated>1691542482617</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="es">
+      <created>1693131006107</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1693131006107</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -607,6 +606,11 @@
           <url>file://$PROJECT_DIR$/spring-es/src/main/java/com/tang/es/config/ResetClientConfig.java</url>
           <line>57</line>
           <option name="timeStamp" value="114" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/spring-mq/src/main/java/com/tang/mq/simple/SimpleMultiProducer.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="115" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/spring-threads/src/main/java/com/tang/queue/DIY/app.java</url>
