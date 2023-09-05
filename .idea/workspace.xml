@@ -5,17 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2cd57bfe-89cb-43e1-b70e-82bcb4dd8de7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/spring-mq/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-mq/src/main/java/com/tang/mq/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-mq/src/main/java/com/tang/mq/simple/ConnectFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-mq/src/main/java/com/tang/mq/simple/SimpleConsumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-mq/src/main/java/com/tang/mq/simple/SimpleMultiConsumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-mq/src/main/java/com/tang/mq/simple/SimpleMultiProducer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-mq/src/main/java/com/tang/mq/simple/SimpleProducer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-mq/src/main/java/com/tang/mq/simple/SimpleMultiConsumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-mq/src/main/java/com/tang/mq/simple/SimpleMultiConsumer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-mq/src/main/java/com/tang/mq/simple/SimpleMultiProducer.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-mq/src/main/java/com/tang/mq/simple/SimpleMultiProducer.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -415,7 +407,14 @@
       <option name="project" value="LOCAL" />
       <updated>1693131006107</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="mq">
+      <created>1693795057003</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1693795057003</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -427,7 +426,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="ff" />
     <MESSAGE value="es" />
-    <option name="LAST_COMMIT_MESSAGE" value="es" />
+    <MESSAGE value="mq" />
+    <option name="LAST_COMMIT_MESSAGE" value="mq" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -609,7 +609,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/spring-mq/src/main/java/com/tang/mq/simple/SimpleMultiProducer.java</url>
-          <line>17</line>
+          <line>21</line>
           <option name="timeStamp" value="115" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
