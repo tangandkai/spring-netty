@@ -32,6 +32,7 @@
         <module>spring-oauth2</module>
         <module>spring-es</module>
         <module>spring-mq</module>
+        <module>spring-redis</module>
     </modules>
 
     <packaging>pom</packaging>

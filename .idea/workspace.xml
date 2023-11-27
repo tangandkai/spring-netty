@@ -5,9 +5,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2cd57bfe-89cb-43e1-b70e-82bcb4dd8de7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/spring-mq/src/main/java/com/tang/mq/simple/channel/SimpleDeadDirectConsumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mq/src/main/java/com/tang/mq/simple/channel/SimpleDeadDirectProducer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mq/src/main/java/com/tang/mq/simple/exchange/SimpleDirectConsumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mq/src/main/java/com/tang/mq/simple/exchange/SimpleDirectProducer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mq/src/main/java/com/tang/mq/simple/exchange/SimpleFanOutConsumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mq/src/main/java/com/tang/mq/simple/exchange/SimpleFanOutProducer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mq/src/main/java/com/tang/mq/simple/exchange/SimpleTopicConsumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mq/src/main/java/com/tang/mq/simple/exchange/SimpleTopicProducer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-redis/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-redis/src/main/java/com/tang/redis/RedisApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-redis/src/main/java/com/tang/redis/config/RedisConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-redis/src/main/java/com/tang/redis/config/SwaggerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-redis/src/main/java/com/tang/redis/controller/RedPackageController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-redis/src/main/java/com/tang/redis/service/RedPackageService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-redis/src/main/java/com/tang/redis/service/impl/RedPackageServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-redis/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-mq/src/main/java/com/tang/mq/simple/SimpleMultiConsumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-mq/src/main/java/com/tang/mq/simple/SimpleMultiConsumer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-mq/src/main/java/com/tang/mq/simple/SimpleMultiProducer.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-mq/src/main/java/com/tang/mq/simple/SimpleMultiProducer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,7 +95,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="Console" />
   </component>
   <component name="ReactorSettings">
     <option name="notificationShown" value="true" />
@@ -113,11 +131,11 @@
       <recent name="com.tang.boot.amqp.producer" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.tang.redis.config" />
+      <recent name="com.tang.mq.simple.channel" />
+      <recent name="com.tang.mq.simple.exchange" />
       <recent name="com.tang.mq.simple" />
       <recent name="com.tang.es.config" />
-      <recent name="com.tang.boot.beans.jackson" />
-      <recent name="com.tang.boot.utils" />
-      <recent name="com.tang.boot.services.impl" />
     </key>
   </component>
   <component name="RunAnythingCache">
@@ -134,13 +152,13 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SimpleMultiProducer">
-    <configuration name="EsClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.tang.es.EsClient" />
-      <module name="spring-es" />
+  <component name="RunManager" selected="Application.RedisApplication">
+    <configuration name="RedPackageServiceImpl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.tang.redis.service.impl.RedPackageServiceImpl" />
+      <module name="spring-redis" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.tang.es.*" />
+          <option name="PATTERN" value="com.tang.redis.service.impl.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -148,12 +166,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SimpleConsumer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.tang.mq.simple.SimpleConsumer" />
-      <module name="spring-mq" />
+    <configuration name="RedisApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.tang.redis.RedisApplication" />
+      <module name="spring-redis" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.tang.mq.simple.*" />
+          <option name="PATTERN" value="com.tang.redis.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -161,12 +179,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SimpleMultiConsumer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.tang.mq.simple.SimpleMultiConsumer" />
+    <configuration name="SimpleDeadDirectConsumer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.tang.mq.simple.channel.SimpleDeadDirectConsumer" />
       <module name="spring-mq" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.tang.mq.simple.*" />
+          <option name="PATTERN" value="com.tang.mq.simple.channel.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -174,12 +192,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SimpleMultiProducer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.tang.mq.simple.SimpleMultiProducer" />
+    <configuration name="SimpleDeadDirectProducer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.tang.mq.simple.channel.SimpleDeadDirectProducer" />
       <module name="spring-mq" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.tang.mq.simple.*" />
+          <option name="PATTERN" value="com.tang.mq.simple.channel.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -187,12 +205,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SimpleProducer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.tang.mq.simple.SimpleProducer" />
+    <configuration name="SimpleDirectProducer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.tang.mq.simple.exchange.SimpleDirectProducer" />
       <module name="spring-mq" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.tang.mq.simple.*" />
+          <option name="PATTERN" value="com.tang.mq.simple.exchange.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -264,19 +282,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.EsClient" />
-      <item itemvalue="Application.SimpleProducer" />
-      <item itemvalue="Application.SimpleConsumer" />
-      <item itemvalue="Application.SimpleMultiProducer" />
-      <item itemvalue="Application.SimpleMultiConsumer" />
+      <item itemvalue="Application.SimpleDirectProducer" />
+      <item itemvalue="Application.SimpleDeadDirectConsumer" />
+      <item itemvalue="Application.SimpleDeadDirectProducer" />
+      <item itemvalue="Application.RedisApplication" />
+      <item itemvalue="Application.RedPackageServiceImpl" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SimpleMultiProducer" />
-        <item itemvalue="Application.SimpleMultiConsumer" />
-        <item itemvalue="Application.SimpleProducer" />
-        <item itemvalue="Application.SimpleConsumer" />
-        <item itemvalue="Application.EsClient" />
+        <item itemvalue="Application.RedisApplication" />
+        <item itemvalue="Application.RedPackageServiceImpl" />
+        <item itemvalue="Application.SimpleDeadDirectProducer" />
+        <item itemvalue="Application.SimpleDeadDirectConsumer" />
+        <item itemvalue="Application.SimpleDirectProducer" />
       </list>
     </recent_temporary>
   </component>
@@ -414,7 +432,14 @@
       <option name="project" value="LOCAL" />
       <updated>1693795057003</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="mq">
+      <created>1693876434425</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1693876434425</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

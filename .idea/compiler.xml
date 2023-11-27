@@ -23,6 +23,7 @@
         <module name="tang-springboot-httpserver-starter" />
         <module name="spring-sureness" />
         <module name="spring-authorization-server" />
+        <module name="spring-redis" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -42,6 +43,7 @@
       <module name="spring-oauthresource-server" options="-parameters" />
       <module name="spring-original" options="-parameters" />
       <module name="spring-reactor" options="" />
+      <module name="spring-redis" options="-parameters" />
       <module name="spring-rpc" options="" />
       <module name="spring-security" options="-parameters" />
       <module name="spring-shard" options="-parameters" />
